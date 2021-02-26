@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+* {margin: 0; padding: 0;}
+.watch {
+    background-image: url(pngegg.png);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    /* background-color: aqua; */
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    margin: auto;
+}
+.hour {
+    width:1.2%;
+    background-color: rgb(0, 0, 0);
+    height: 25%;
+    position: absolute;
+    left: 49.5% ;
+    top: 25.2%;
+    /* display: none; */
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.minute{
+    width:0.7%;
+    background-color: rgb(0, 0, 0);
+    height: 28%;
+    position: absolute;
+    left: 49.6% ;
+    top: 22.2%;
+    /* display: none; */
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.second{
+    width:0.3%;
+    background-color: black;
+    height: 32%;
+    position: absolute;
+    left: 49.8% ;
+    top: 18%;
+    /* display: none; */
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.signature {
+    font-family: 'Dancing Script', cursive;
+    position:absolute;
+    bottom: 5%;
+    right: 3%;
+    font-weight:bolder;
+    font-size: larger;
+    text-transform: capitalize;
+    transform: rotate(-9deg);
+}
+
